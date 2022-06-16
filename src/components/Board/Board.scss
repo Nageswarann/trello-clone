@@ -1,0 +1,28 @@
+@import "src/scss/variables.scss";
+
+.container {
+    width: 20%;
+    height: 100%;
+    background-color: $board-bg;
+    border-radius: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    .delete-btn{
+        width: 4rem;
+        cursor: pointer;
+        padding: 6px 10px;
+        margin-bottom: 12px;
+        text-align: center;
+        border: 1px solid $delete-border;
+        border-radius: 8px;
+    }
+    
+    .disable-btn{
+        cursor: default;
+        background-color: $btn-disable;
+    }
+}
